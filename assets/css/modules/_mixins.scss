@@ -1,0 +1,21 @@
+@mixin full {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin center {
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin caption {
+  padding: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: $medium;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  z-index: 10;
+  color: rgba($grey, 0.5);
+}
